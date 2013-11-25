@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=customerID\ partCode\ email
+comment1.target=java.lang.String\ makeOrder(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ \r\n
+comment2.params=output\ check\ email
+comment2.target=java.lang.String\ generateXML(java.lang.String,\ java.lang.Boolean,\ java.lang.String)
+comment2.text=\r\n\ \r\n
+numComments=3
