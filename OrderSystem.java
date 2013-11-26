@@ -40,6 +40,13 @@ public class OrderSystem {
         }
 
         placeOrder(4, "PN2221", "asdasfdasdw");
+
+        // Prints out parts list with prices
+//        while(!parts.isEmpty()){
+//            Part part = parts.get(0);
+//            System.out.print(part.getPartCode() + " " + part.getPrice() + "$ " + "available: " + part.isAvailable() + "\n" );
+//            parts.remove(0);
+//        }
     }
     
         /**
@@ -78,7 +85,7 @@ public class OrderSystem {
 
         if ( !error ) {
             orders.add( new Order(email, partCode) );
-            answer(" Your order for " + partCode + " was Successful!", "success", email );
+            answer(" Your order for " + partCode + " was Successful!", "success", email);
         }
     }
 
@@ -101,7 +108,7 @@ public class OrderSystem {
 
     }
 
-    public static class Part {
+    private static class Part {
         private int price;
         private boolean available;
         private String partCode;
@@ -127,7 +134,7 @@ public class OrderSystem {
 
     }
 
-    public static class Order {
+    private static class Order {
         private static String email;
         private static String partCode;
 
